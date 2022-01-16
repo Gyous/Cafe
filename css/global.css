@@ -1,0 +1,116 @@
+:root{
+  --text-accent-color: #ffffff;
+  --text-color: #B8B8B8;
+  --sub-text-color: rgba(255, 255, 255, 0.6); 
+  --dark-color: #1F1D21;
+}
+
+.container {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn{
+  position: relative;
+  background-color: #bb885f;
+  color: #2E2D33;
+  padding: 12px 32px;
+  line-height: 24px;
+  font-weight: 500;
+  transition: color 0.5s, box-shadow 0.3s;
+  display: inline-block;
+  width: max-content;
+  text-align: center;
+}
+
+.btn:hover{
+  color: var(--text-accent-color);
+}
+
+.section{
+  padding: 80px 0;
+}
+
+.section__title{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--text-accent-color);
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.section__subtitle{
+  display: inline-block;
+  color: #FFB577;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-right: 64px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.section__subtitle::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 48px;
+  height: 1px;
+  background-color: var(--text-accent-color);
+}
+
+path{
+  transition: fill 0.3s;
+}
+
+.nav__link{
+  transition: border-bottom-color 0.3s, box-shadow 0.3s;
+}
+
+.header__content-link,
+.menu__item,
+.blockquote-video-link,
+.topics__item-title,
+.contacts__item-link,
+.footer__socials-link,
+.logo,
+.blogs__trending-link,
+.blogs__trending-title,
+.blogs__item-link,
+.article__page-name,
+.article__page-content a,
+.menu__top-text a{
+  transition: color 0.3s, box-shadow 0.3s;
+}
+
+.nav__link:focus,
+.logo:focus,
+.footer__socials-link:focus,
+.header__content-link:focus,
+.blockquote-video-link:focus,
+.contacts__item-link:focus,
+.blogs__trending-link:focus,
+.blogs__trending-title:focus,
+.blogs__trending-read:focus,
+.blogs__item-link:focus,
+.article__page-name:focus,
+.article__page-content a:focus,
+.menu__top-text a:focus{
+  box-shadow: 0 0 0 1px rgba(255, 151, 66, 0.788);
+}
+
+.btn:focus{
+  box-shadow: 0 0 0 4px rgba(255, 151, 66, 0.788);
+}
+
+.topics__item-title:focus,
+.article__page-name:hover,
+.article__page-content a:hover,
+.menu__top-text a:hover{
+  color: #FFB577;
+}
