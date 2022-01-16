@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe - Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header__inner">
+        <a class="header__logo logo" href="index.html">
+          <img src="images/logo.svg" alt="name logo">
+        </a>
+        <button class="menu__btn">
+          <span class="menu__btn-line"></span>
+          <span class="menu__btn-line"></span>
+        </button>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="index.html" aria-label="Home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="menu.html" aria-label="Menu">Menu</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="about.html" aria-label="About Us">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="ourstory.html" aria-label="Our Story">Our Story</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="blog.html" aria-label="Blog">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="contact.html" aria-label="Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="blogs section">
+      <div class="container">
+        <h1 class="blogs__title section__title">Featured Blogs</h1>
+        <div class="blogs__inner">
+          <article class="blogs__trending" style="background-image: url(images/blogs-trending.jpg);">
+            <a class="blogs__trending-link" href="#">Trending</a>
+            <a class="blogs__trending-title" href="article.html">Striving for perfection: how to become a barista</a>
+            <div class="blogs__trending-bottom">
+              <div class="blogs__trending-author">
+                <img class="blogs__trending-img" src="images/blogs-author.jpg" alt="Andrew Jonson" width="40"
+                  height="40">
+                <div class="blogs__trending-info">
+                  <h4 class="blogs__trending-name">Andrew Jonson</h4>
+                  <span class="blogs__trending-date">27th January 2021</span>
+                </div>
+              </div>
+              <a class="blogs__trending-read" href="article.html">Read More</a>
+            </div>
+          </article>
+
+          <div class="blogs__items">
+            <div class="blogs__item">
+              <img class="blogs__item-img" src="images/blogs/blog1.jpg" alt="" width="140" height="144">
+              <div class="blogs__item-content">
+                <a class="blogs__item-link" href="#">Pass on your blessings in this holiday season</a>
+                <p class="blogs__item-text">
+                  You can now purchase a e-gift card directly on our website and send it to your beloved ones
+                </p>
+              </div>
+            </div>
+            <div class="blogs__item">
+              <img class="blogs__item-img" src="images/blogs/blog2.jpg" alt="" width="140" height="144">
+              <div class="blogs__item-content">
+                <a class="blogs__item-link" href="#">The people of Kaldi's Coffee: Lupe and Maria</a>
+                <p class="blogs__item-text">
+                  Writing UX copies can be a little frustrating and confusing, and sometimes
+                </p>
+              </div>
+            </div>
+            <div class="blogs__item">
+              <img class="blogs__item-img" src="images/blogs/blog3.jpg" alt="" width="140" height="144">
+              <div class="blogs__item-content">
+                <a class="blogs__item-link" href="#">Oldies Night on Mondays</a>
+                <p class="blogs__item-text">
+                  Same time, same day of week, same singer and the same memorable oldies
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="articles section">
+      <div class="container">
+        <h2 class="articles__title">All Articles</h2>
+        <div class="articles__items">
+          <article class="articles__item">
+            <img class="articles__item-img" src="images/articles1.jpg" alt="" width="236" height="266">
+            <div class="articles__item-content">
+              <div class="articles__item-author">
+                <img class="articles__item-photo" src="images/blogs-author.jpg" alt="" width="40" height="40">
+                <div class="articles__item-information">
+                  <h4 class="articles__item-name">Andrew Jonson</h4>
+                  <span class="articles__item-date">27th January 2021</span>
+                </div>
+              </div>
+              <h3 class="articles__item-title">A guide to Thai Curry</h3>
+              <a class="articles__item-link blogs__trending-read" href="#">Read More</a>
+            </div>
+          </article>
+          <article class="articles__item">
+            <img class="articles__item-img" src="images/articles3.jpg" alt="" width="236" height="266">
+            <div class="articles__item-content">
+              <div class="articles__item-author">
+                <img class="articles__item-photo" src="images/blogs-author.jpg" alt="" width="40" height="40">
+                <div class="articles__item-information">
+                  <h4 class="articles__item-name">Andrew Jonson</h4>
+                  <span class="articles__item-date">27th January 2021</span>
+                </div>
+              </div>
+              <h3 class="articles__item-title">The best guacamole recipe with only 4 ingredients</h3>
+              <a class="articles__item-link blogs__trending-read" href="#">Read More</a>
+            </div>
+          </article>
+          <article class="articles__item">
+            <img class="articles__item-img" src="images/articles2.jpg" alt="" width="236" height="266">
+            <div class="articles__item-content">
+              <div class="articles__item-author">
+                <img class="articles__item-photo" src="images/blogs-author.jpg" alt="" width="40" height="40">
+                <div class="articles__item-information">
+                  <h4 class="articles__item-name">Andrew Jonson</h4>
+                  <span class="articles__item-date">27th January 2021</span>
+                </div>
+              </div>
+              <h3 class="articles__item-title">How to store Tomatoes (and Whether to Refrigerate Them)</h3>
+              <a class="articles__item-link blogs__trending-read" href="#">Read More</a>
+            </div>
+          </article>
+          <article class="articles__item">
+            <img class="articles__item-img" src="images/articles4.jpg" alt="" width="236" height="266">
+            <div class="articles__item-content">
+              <div class="articles__item-author">
+                <img class="articles__item-photo" src="images/blogs-author.jpg" alt="" width="40" height="40">
+                <div class="articles__item-information">
+                  <h4 class="articles__item-name">Andrew Jonson</h4>
+                  <span class="articles__item-date">27th January 2021</span>
+                </div>
+              </div>
+              <h3 class="articles__item-title">The Absolute Best Way to Cook French Fries</h3>
+              <a class="articles__item-link blogs__trending-read" href="#">Read More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts section">
+      <div class="container">
+        <div class="contacts__inner">
+          <div class="contacts__info">
+            <div class="contacts__item">
+              <h3 class="contacts__item-title">Working Hour</h3>
+              <p class="contacts__item-text">Sunday to Saturday <br> 09:00 AM to 11:00 PM</p>
+            </div>
+            <div class="contacts__item">
+              <h3 class="contacts__item-title">Location</h3>
+              <p class="contacts__item-text">Street - 127, New York, <br> United States <br> 546544</p>
+            </div>
+            <div class="contacts__item">
+              <h3 class="contacts__item-title">Contact us</h3>
+              <a class="contacts__item-link" href="tel:+123456789" aria-label="contacts phone">+123456789</a>
+              <a class="contacts__item-link" href="mailto:hey@yourdomain.com"
+                aria-label="contact mail">hey@yourdomain.com</a>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d640.8144894759083!2d44.51391563549348!3d40.181700390463234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcfcac0145e5%3A0x56bdd5cddf934eba!2z0KLQuNGG0LjQsNC90L4!5e0!3m2!1sru!2sru!4v1642173624745!5m2!1sru!2sru"
+              width="836" height="532" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer__logo logo" href="index.html">
+      <img src="images/logo.svg" alt="name logo">
+    </a>
+    <div class="container">
+      <ul class="footer__socials">
+        <li class="footer__soicals-item">
+          <a class="footer__socials-link" href="https://www.youtube.com/" target="_blank">
+            <svg width="30" height="30" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_633)">
+                <path
+                  d="M15 8.04437C15 3.87692 11.6421 0.498535 7.5 0.498535C3.35786 0.498535 0 3.87692 0 8.04437C0 11.8107 2.74263 14.9325 6.32812 15.4985V10.2256H4.42383V8.04437H6.32812V6.38193C6.32812 4.49075 7.44785 3.44613 9.16099 3.44613C9.9813 3.44613 10.8398 3.59351 10.8398 3.59351V5.45049H9.89414C8.9625 5.45049 8.67188 6.0322 8.67188 6.62953V8.04437H10.752L10.4194 10.2256H8.67188V15.4985C12.2574 14.9325 15 11.8107 15 8.04437Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_633">
+                  <rect width="15" height="15" fill="white" transform="translate(0 0.498535)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__soicals-item">
+          <a class="footer__socials-link" href="https://www.youtube.com/" target="_blank">
+            <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_635)">
+                <path
+                  d="M5.2374 14.0925C10.8964 14.0925 13.9925 9.40294 13.9925 5.33741C13.9925 5.20558 13.9896 5.07081 13.9837 4.93897C14.586 4.50341 15.1057 3.96391 15.5186 3.34581C14.9576 3.59537 14.3621 3.75836 13.7522 3.82921C14.3944 3.44432 14.8751 2.83967 15.1055 2.12735C14.5014 2.48535 13.8408 2.73788 13.152 2.87413C12.6878 2.38097 12.0742 2.05445 11.4059 1.94503C10.7375 1.83561 10.0518 1.94941 9.45464 2.26881C8.85749 2.58821 8.38218 3.09544 8.10221 3.71207C7.82224 4.3287 7.7532 5.02038 7.90576 5.68019C6.68261 5.61881 5.48602 5.30106 4.39354 4.74756C3.30107 4.19406 2.33711 3.41715 1.56416 2.4672C1.1713 3.14453 1.05109 3.94603 1.22795 4.70881C1.40481 5.47158 1.86547 6.1384 2.51631 6.57374C2.0277 6.55823 1.54979 6.42667 1.12207 6.18995V6.22804C1.12163 6.93884 1.36737 7.62787 1.8175 8.17798C2.26763 8.7281 2.89438 9.10535 3.59121 9.24562C3.13859 9.36946 2.66354 9.3875 2.20283 9.29835C2.39946 9.90965 2.78204 10.4443 3.29716 10.8277C3.81228 11.2111 4.43426 11.4241 5.07627 11.437C3.98632 12.2932 2.63991 12.7576 1.25391 12.7554C1.00811 12.755 0.762554 12.7399 0.518555 12.7103C1.92659 13.6136 3.56451 14.0934 5.2374 14.0925Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_635">
+                  <rect width="15" height="15" fill="white" transform="translate(0.518555 0.498535)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__soicals-item">
+          <a class="footer__socials-link" href="https://www.youtube.com/" target="_blank">
+            <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_637)">
+                <path
+                  d="M7.53711 1.84912C9.54102 1.84912 9.77832 1.85791 10.5664 1.89307C11.2988 1.92529 11.6943 2.04834 11.958 2.15088C12.3066 2.28564 12.5586 2.44971 12.8193 2.71045C13.083 2.97412 13.2441 3.22314 13.3789 3.57178C13.4814 3.83545 13.6045 4.23389 13.6367 4.96338C13.6719 5.75439 13.6807 5.9917 13.6807 7.99268C13.6807 9.99658 13.6719 10.2339 13.6367 11.022C13.6045 11.7544 13.4814 12.1499 13.3789 12.4136C13.2441 12.7622 13.0801 13.0142 12.8193 13.2749C12.5557 13.5386 12.3066 13.6997 11.958 13.8345C11.6943 13.937 11.2959 14.0601 10.5664 14.0923C9.77539 14.1274 9.53809 14.1362 7.53711 14.1362C5.5332 14.1362 5.2959 14.1274 4.50781 14.0923C3.77539 14.0601 3.37988 13.937 3.11621 13.8345C2.76758 13.6997 2.51563 13.5356 2.25488 13.2749C1.99121 13.0112 1.83008 12.7622 1.69531 12.4136C1.59277 12.1499 1.46973 11.7515 1.4375 11.022C1.40234 10.231 1.39355 9.99365 1.39355 7.99268C1.39355 5.98877 1.40234 5.75146 1.4375 4.96338C1.46973 4.23096 1.59277 3.83545 1.69531 3.57178C1.83008 3.22314 1.99414 2.97119 2.25488 2.71045C2.51855 2.44678 2.76758 2.28564 3.11621 2.15088C3.37988 2.04834 3.77832 1.92529 4.50781 1.89307C5.2959 1.85791 5.5332 1.84912 7.53711 1.84912ZM7.53711 0.498535C5.50098 0.498535 5.24609 0.507324 4.44629 0.54248C3.64941 0.577637 3.10156 0.706543 2.62695 0.891113C2.13184 1.08447 1.71289 1.33936 1.29688 1.7583C0.87793 2.17432 0.623047 2.59326 0.429688 3.08545C0.245117 3.56299 0.116211 4.10791 0.0810547 4.90478C0.0458984 5.70752 0.0371094 5.9624 0.0371094 7.99854C0.0371094 10.0347 0.0458984 10.2896 0.0810547 11.0894C0.116211 11.8862 0.245117 12.4341 0.429688 12.9087C0.623047 13.4038 0.87793 13.8228 1.29688 14.2388C1.71289 14.6548 2.13184 14.9126 2.62402 15.103C3.10156 15.2876 3.64648 15.4165 4.44336 15.4517C5.24316 15.4868 5.49805 15.4956 7.53418 15.4956C9.57031 15.4956 9.8252 15.4868 10.625 15.4517C11.4219 15.4165 11.9697 15.2876 12.4443 15.103C12.9365 14.9126 13.3555 14.6548 13.7715 14.2388C14.1875 13.8228 14.4453 13.4038 14.6357 12.9116C14.8203 12.4341 14.9492 11.8892 14.9844 11.0923C15.0195 10.2925 15.0283 10.0376 15.0283 8.00147C15.0283 5.96533 15.0195 5.71045 14.9844 4.91064C14.9492 4.11377 14.8203 3.56592 14.6357 3.09131C14.4512 2.59326 14.1963 2.17432 13.7773 1.7583C13.3613 1.34229 12.9424 1.08447 12.4502 0.894043C11.9727 0.709473 11.4277 0.580566 10.6309 0.54541C9.82813 0.507324 9.57324 0.498535 7.53711 0.498535Z"
+                  fill="white" />
+                <path
+                  d="M7.53711 4.146C5.41016 4.146 3.68457 5.87158 3.68457 7.99854C3.68457 10.1255 5.41016 11.8511 7.53711 11.8511C9.66406 11.8511 11.3896 10.1255 11.3896 7.99854C11.3896 5.87158 9.66406 4.146 7.53711 4.146ZM7.53711 10.4976C6.15723 10.4976 5.03809 9.37842 5.03809 7.99854C5.03809 6.61865 6.15723 5.49951 7.53711 5.49951C8.91699 5.49951 10.0361 6.61865 10.0361 7.99854C10.0361 9.37842 8.91699 10.4976 7.53711 10.4976Z"
+                  fill="white" />
+                <path
+                  d="M12.4414 3.99365C12.4414 4.4917 12.0371 4.89307 11.542 4.89307C11.0439 4.89307 10.6426 4.48877 10.6426 3.99365C10.6426 3.49561 11.0469 3.09424 11.542 3.09424C12.0371 3.09424 12.4414 3.49854 12.4414 3.99365Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_637">
+                  <rect width="15" height="15" fill="white" transform="translate(0.0371094 0.498535)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__soicals-item">
+          <a class="footer__socials-link" href="https://www.youtube.com/" target="_blank">
+            <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_642)">
+                <path
+                  d="M14.4453 0.498535H1.66309C1.05078 0.498535 0.555664 0.981934 0.555664 1.57959V14.4146C0.555664 15.0122 1.05078 15.4985 1.66309 15.4985H14.4453C15.0576 15.4985 15.5557 15.0122 15.5557 14.4175V1.57959C15.5557 0.981934 15.0576 0.498535 14.4453 0.498535ZM5.00586 13.2808H2.7793V6.1206H5.00586V13.2808ZM3.89258 5.14502C3.17773 5.14502 2.60059 4.56787 2.60059 3.85596C2.60059 3.14404 3.17773 2.56689 3.89258 2.56689C4.60449 2.56689 5.18164 3.14404 5.18164 3.85596C5.18164 4.56494 4.60449 5.14502 3.89258 5.14502ZM13.3379 13.2808H11.1143V9.80029C11.1143 8.97119 11.0996 7.90186 9.95703 7.90186C8.7998 7.90186 8.62402 8.80713 8.62402 9.7417V13.2808H6.40332V6.1206H8.53613V7.09912H8.56543C8.86133 6.53662 9.58789 5.94189 10.6689 5.94189C12.9219 5.94189 13.3379 7.42432 13.3379 9.35205V13.2808V13.2808Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_642">
+                  <rect width="15" height="15" fill="white" transform="translate(0.555664 0.498535)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
